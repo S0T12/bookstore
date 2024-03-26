@@ -1,6 +1,29 @@
 # Bookstore Repository
 
-Welcome to the Bookstore Repository! This repository serves as the central hub for the microservices powering our bookstore application. Below, you'll find brief descriptions of each microservice along with instructions on how to run them locally and links to their respective repositories.
+### Project Summary
+
+This project was completed within one week, with a time commitment of 2 hours per day (totaling 14 hours).
+
+**Disadvantages:**
+- Incomplete error handling.
+- Dockerization is not tested.
+- Microservices division could be improved (consider merging purchase and cart services).
+- Incomplete documentation.
+- Add abstract repository.
+
+**If I had more time...**
+- Implement comprehensive error handling to prevent program crashes and ensure correct responses to clients.
+- Integrate Elasticsearch for book searching functionality.
+- Enhance documentation with more detailed information.
+- Consider adding a GraphQL gateway to the project.
+
+**Advantages:**
+- Completed within 14 hours.
+- Codebase exhibits simplicity and readability across all implementations.
+- Optimal algorithms utilized with the chosen tools.
+- System functions correctly and is expandable.
+
+To test the extension, install the REST client and send requests through the provided `.rest` files.
 
 ## Microservices
 
